@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)), url(images/ban.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 15vh;
+}
+
+.intro{
+    color: gold;
+    font-size: 125%;
+}
+
+.pt1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.pt2{
+    margin-top: 2px;
+    margin-left: 65px;
+}
+
+ul{
+    padding-top: 3%;
+    align-items: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 125%;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    background-color: lightgrey;
+}
+
+li a.active{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    background-color: lightgrey;
+}
+
+.con{
+    margin-top: 5px;
+    padding: 5px 20px;
+    float: right;
+    width: 25%;
+    background: rgba(183, 202, 200, 0.781);
+}
+
+section h3{
+    font-size: 150%;
+}
+
+section p{
+    font-size: 125%;
+}
+
+.his{
+    margin: 10px 10px;
+}
+
+.his h2{
+    font-size: 175%;
+    text-align: center;
+}
+
+.his p{
+    font-size: 125%;
+    margin-top: 15px;
+}
+
+.his table, thead, tbody, td, th, tr{
+    margin-top: 15px;
+    padding: 10px 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 105%;
+    background: lightcyan;
+}
+
+.his img{
+    margin-top: 20px;
+    width: 80%;
+    height: 100vh;
+}
